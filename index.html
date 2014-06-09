@@ -1,254 +1,355 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Articulate</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="">
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-    <title>Stylish Portfolio Template for Bootstrap</title>
+        <!-- Bootstrap core CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- Fonts from Font Awsome -->
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+         <!-- Magnific popup -->
+        <link rel="stylesheet" href="css/magnific-popup.css">
+        <!-- Custom styles for this template -->
+        <link rel="stylesheet" href="css/main.css">
 
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+        <!-- Color styles -->
+        <link rel="stylesheet" href="css/colors/blue.css">
+       <!-- <link rel="stylesheet" href="css/colors/yellow.css">-->
+       <!-- <link rel="stylesheet" href="css/colors/red.css">-->
+       <!--  <link rel="stylesheet" href="css/colors/purple.css">-->
+       <!--  <link rel="stylesheet" href="css/colors/orange.css">-->
+       <!--  <link rel="stylesheet" href="css/colors/green.css">-->
+        
+         <!-- Feature detection -->
+        <script src="js/modernizr-2.6.2.min.js"></script>
+        <!-- Fonts -->
+        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Oxygen:400,700' rel='stylesheet' type='text/css'>
 
-    <!-- Add custom CSS here -->
-    <link href="css/stylish-portfolio.css" rel="stylesheet">
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
-</head>
-
-<body>
-
-    <!-- Side Menu -->
-    <a id="menu-toggle" href="#" class="btn btn-primary btn-lg toggle"><i class="fa fa-bars"></i></a>
-    <div id="sidebar-wrapper">
-        <ul class="sidebar-nav">
-            <a id="menu-close" href="#" class="btn btn-default btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
-            <li class="sidebar-brand"><a href="http://startbootstrap.com">Start Bootstrap</a>
-            </li>
-            <li><a href="#top">Home</a>
-            </li>
-            <li><a href="#about">About</a>
-            </li>
-            <li><a href="#services">Services</a>
-            </li>
-            <li><a href="#portfolio">Portfolio</a>
-            </li>
-            <li><a href="#contact">Contact</a>
-            </li>
-        </ul>
-    </div>
-    <!-- /Side Menu -->
-
-    <!-- Full Page Image Header Area -->
-    <div id="top" class="header">
-        <div class="vert-text">
-            <h1>Start Bootstrap</h1>
-            <h3>
-                <em>We</em> Build Great Templates,
-                <em>You</em> Make Them Better</h3>
-            <a href="#about" class="btn btn-default btn-lg">Find Out More</a>
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+          <script src="js/plugins/html5shiv.js"></script>
+          <script src="js/plugins/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+  <div class="navbar navbar-default navbar-static-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
         </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav" id="main-menu">
+            <li><a href="#page-welcome">Home</a></li>
+            <li><a href="#page-profile">Profile</a></li>
+            <li><a href="#page-skills">Skills</a></li>
+            <li><a href="#page-education">Education</a></li>
+            <li><a href="#page-experience">Experience</a></li>
+            <li><a href="#page-portfolio">Portfolio</a></li>
+            <li><a href="#page-contact">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
     </div>
-    <!-- /Full Page Image Header Area -->
-
-    <!-- Intro -->
-    <div id="about" class="intro">
+    <!-- welcome begins -->
+    <section id="page-welcome" class="page-welcome">
+      <div>
+          <ul class="slider-controls">
+              <li><a id="vegas-next" class="next" href="#"></a></li>
+              <li><a id="vegas-prev" class="prev" href="#"></a></li>
+          </ul>
+        </div>
         <div class="container">
             <div class="row">
-                <div class="col-md-6 col-md-offset-3 text-center">
-                    <h2>Subtle Sidebar is the Perfect Template for your Next Portfolio Website Project!</h2>
-                    <p class="lead">This template really has it all. It's up to you to customize it to your liking! It features some fresh photography courtesy of <a target="_blank" href="http://join.deathtothestockphoto.com/">Death to the Stock Photo</a>.</p>
+                <header class="centered">
+                    <h1>Jonathan Doe</h1>
+                    <p>PROFESSIONAL GRAPHIC DESIGNER</p>
+                </header>
+                <div class="social-icons">
+                        <a href="https://twitter.com/" class="btn btn-round btn-clear btn-twitter"><i class="fa fa-twitter"></i></a>
+                        <a href="https://www.facebook.com/" class="btn btn-round btn-clear btn-facebook"><i class="fa fa-facebook"></i></a>
+                        <a href="https://www.dribbble.com/" class="btn btn-round btn-clear btn-dribbble"><i class="fa fa-dribbble"></i></a>
+                        <a href="https://www.instagram.com/" class="btn btn-round btn-clear btn-instagram"><i class="fa fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/" class="btn btn-round btn-clear btn-linkedin"><i class="fa fa-linkedin-square"></i></a>
+                         <a href="https://www.pinterest.com/" class="btn btn-round btn-clear btn-pinterest"><i class="fa fa-pinterest"></i></a>
+                        <a href="https://www.google.com/" class="btn btn-round btn-clear btn-google"><i class="fa fa-google-plus"></i></a>
+                    
+                </div>
+                <a href="#page-contact" class="btn btn-default hire-me">Hire Me</a>
+            </div>
+        </div>
+    </section><!-- welcome ends -->
+    <!-- profile begins -->
+    <section id="page-profile" class="page-profile">
+      <div class="container">
+                <header class="section-header">
+                    <h2 class="section-title">Personal Profile</h2>
+                    <div class="spacer"></div>
+                    <p class="section-subtitle">Lorem ipsum dolor sit amet, id iusto oportere mel. </p>
+                </header>
+            <div class="row">
+              <div class="col-md-3">
+                 <div class="profile"><img src="img/profile.png" alt="profile"/></div> 
+              </div>
+               <div class="col-md-9">
+                <p>Lorem ipsum dolor sit amet, vel no saepe invenire, magna similique vis no. Eam tollit gloriatur ad, quaeque euismod tractatos usu eu. Apeirian detraxit consequat vis ne, natum brute quidam nec no. Sit in accusamus aliquando, an his aeque iusto delicata.</p>
+                <p>Facer libris qui ea, mel ludus persius suscipiantur te. Eos soleat inimicus liberavisse at. Ex sit mazim soluta lobortis, ut nec bonorum splendide, mel tation erroribus principes eu. Cum ne vero albucius disputando. Et vidit movet sea. Falli appetere ut vix, eu offendit sapientem est. Postulant delicatissimi ex mea, ne modo nostrud salutandi usu, cu ignota dissentiunt his.</p>
+                <p>No wisi hendrerit per, ius ei stet oportere scribentur. Nam ex quando petentium, ei sea sonet timeam. Ex erat docendi urbanitas vix, equidem appetere vix an, mei legere offendit ponderum te. In per vidit dicta democritum, ut fuisset voluptua repudiandae eum. Cum at eius reformidans. In vocent dolores eos, ea vel idque soluta similique.</p>
+                 <p>No wisi hendrerit per, ius ei stet oportere scribentur. Nam ex quando petentium, ei sea sonet timeam. Ex erat docendi urbanitas vix, equidem appetere vix an, mei legere offendit ponderum te. In per vidit dicta democritum, ut fuisset voluptua repudiandae eum.</p>
+              </div>
+            </div>
+      </div> 
+    </section><!-- profile ends -->
+    <!-- skills begins -->
+     <section id="page-skills" class="page-skills">
+       <div class="container">
+           
+                 <header class="section-header">
+                    <h2 class="section-title"><span>Skills</span></h2>
+                      <div class="spacer"></div>
+                    <p class="section-subtitle">Lorem ipsum dolor sit amet, id iusto oportere mel. </p>
+                </header>
+            <div class="row">
+              <div class="col-md-2">
+               <span class="chart" data-percent="95">
+                      <span class="percent"></span>
+                      <h3>Photoshop</h3>
+               </span>
+            </div>
+               <div class="col-md-2 ">
+               <span class="chart" data-percent="60">
+                      <span class="percent"></span>
+                      <h3>Illustrator</h3>
+               </span>
+            </div>
+               <div class="col-md-2">
+               <span class="chart" data-percent="75">
+                      <span class="percent"></span>
+                       <h3>HTML</h3>
+               </span>
+            </div>
+               <div class="col-md-2">
+               <span class="chart" data-percent="80">
+                      <span class="percent"></span>
+                      <h3>CSS</h3>
+               </span>
+            </div>
+               <div class="col-md-2">
+               <span class="chart" data-percent="65">
+                      <span class="percent"></span>
+                      <h3>jQuery</h3>
+               </span>
+            </div>
+               <div class="col-md-2">
+               <span class="chart" data-percent="85">
+                      <span class="percent"></span>
+                       <h3>PHP</h3>
+               </span>
+            </div>
+          </div>
+        </div>
+    </section><!-- skills ends -->
+    <!-- education begins -->
+     <section id="page-education" class="page-education">
+       <div class="container">
+                <header class="section-header">
+                    <h2 class="section-title"><span>Education</span></h2>
+                     <div class="spacer"></div>
+                    <p class="section-subtitle">Lorem ipsum dolor sit amet, id iusto oportere mel. </p>
+                </header>
+                <div class="row">
+                 <div class="col-md-6">
+                  <article class="education">
+                    <header>
+                      <h3>School of the Art Institute of Chicago</h3>
+                      <p>Bachelor of Fine Arts - <strong>Graduated:</strong> 2004</p>
+                    </header>
+                      <p>Lorem ipsum dolor sit amet, ut pri munere perfecto sadipscing, nam habeo legere disputationi ea. Vis nostrud intellegat eu, in vix erat abhorreant accommodare. Vix id elit albucius suavitate. Eos mentitum forensibus et. Vix et quidam moderatius, cu vim quem tibique constituam.</p>
+                  </article>
+                </div>
+                <div class="col-md-6">
+                <article class="education">
+                  <header>
+                    <h3>Rhode Island School of Design</h3>
+                    <p>Associates of Fine Arts  - <strong>Graduated:</strong> 2002</p>
+                  </header>
+                    <p>Lorem ipsum dolor sit amet, ut pri munere perfecto sadipscing, nam habeo legere disputationi ea. Vis nostrud intellegat eu, in vix erat abhorreant accommodare. Vix id elit albucius suavitate. Eos mentitum forensibus et. Vix et quidam moderatius, cu vim quem tibique constituam.</p>
+                </article>
+                </div>
+            </div>
+       </div>
+    </section><!-- education ends -->
+    <!-- experience begins -->
+     <section id="page-experience" class="page-experience">
+       <div class="container">
+                <header class="section-header">
+                    <h2 class="section-title"><span>Experience</span></h2>
+                     <div class="spacer"></div>
+                    <p class="section-subtitle">Lorem ipsum dolor sit amet, id iusto oportere mel. </p>
+                </header>
+                <div class="row">
+                 <div class="col-md-4">
+                  <article class="experience">
+                    <header>
+                      <h3>Dropbox</h3>
+                      <p>Design Lead / San Francisco, CA / 2013 - Current</p>
+                    </header>
+                      <p>Lorem ipsum dolor sit amet, ut pri munere perfecto sadipscing, nam habeo legere disputationi ea. Vis nostrud intellegat eu, in vix erat abhorreant accommodare. Vix id elit albucius suavitate. Eos mentitum forensibus et. Vix et quidam moderatius, cu vim quem tibique constituam.</p>
+                  </article>
+                </div>
+                  <div class="col-md-4">
+                  <article class="experience">
+                    <header>
+                      <h3>Instagram</h3>
+                       <p>Visual Designer / San Francisco, CA / 2010 - 2013</p>
+                    </header>
+                      <p>Lorem ipsum dolor sit amet, ut pri munere perfecto sadipscing, nam habeo legere disputationi ea. Vis nostrud intellegat eu, in vix erat abhorreant accommodare. Vix id elit albucius suavitate. Eos mentitum forensibus et. Vix et quidam moderatius, cu vim quem tibique constituam.</p>
+                  </article>
+                </div>
+                <div class="col-md-4">
+                <article class="experience">
+                  <header>
+                    <h3>Facebook</h3>
+                     <p>Product Designer / San Francisco, CA / 2005 - 2010</p>
+                  </header>
+                    <p>Lorem ipsum dolor sit amet, ut pri munere perfecto sadipscing, nam habeo legere disputationi ea. Vis nostrud intellegat eu, in vix erat abhorreant accommodare. Vix id elit albucius suavitate. Eos mentitum forensibus et. Vix et quidam moderatius, cu vim quem tibique constituam.</p>
+                </article>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- /Intro -->
-
-    <!-- Services -->
-    <div id="services" class="services">
-        <div class="container">
+    </section><!-- experience ends -->
+    <!-- portfolio begins -->
+     <section id="page-portfolio" class="page-portfolio">
+          <div class="container">
             <div class="row">
-                <div class="col-md-4 col-md-offset-4 text-center">
-                    <h2>Our Services</h2>
-                    <hr>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-2 col-md-offset-2 text-center">
-                    <div class="service-item">
-                        <i class="service-icon fa fa-rocket"></i>
-                        <h4>Spacecraft Repair</h4>
-                        <p>Did your navigation system shut down in the middle of that asteroid field? We can repair any dings and scrapes to your spacecraft!</p>
-                    </div>
-                </div>
-                <div class="col-md-2 text-center">
-                    <div class="service-item">
-                        <i class="service-icon fa fa-magnet"></i>
-                        <h4>Problem Solving</h4>
-                        <p>Need to know how magnets work? Our problem solving solutions team can help you identify problems and conduct exploratory research.</p>
-                    </div>
-                </div>
-                <div class="col-md-2 text-center">
-                    <div class="service-item">
-                        <i class="service-icon fa fa-shield"></i>
-                        <h4>Blacksmithing</h4>
-                        <p>Planning a time travel trip to the middle ages? Preserve the space time continuum by blending in with period accurate armor and weapons.</p>
-                    </div>
-                </div>
-                <div class="col-md-2 text-center">
-                    <div class="service-item">
-                        <i class="service-icon fa fa-pencil"></i>
-                        <h4>Pencil Sharpening</h4>
-                        <p>We've been voted the best pencil sharpening service for 10 consecutive years. If you have a pencil that feels dull, we'll get it sharp!</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- /Services -->
-
-    <!-- Callout -->
-    <div class="callout">
-        <div class="vert-text">
-            <h1>A Dramatic Text Area</h1>
-        </div>
-    </div>
-    <!-- /Callout -->
-
-    <!-- Portfolio -->
-    <div id="portfolio" class="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 col-md-offset-4 text-center">
-                    <h2>Our Work</h2>
-                    <hr>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4 col-md-offset-2 text-center">
-                    <div class="portfolio-item">
-                        <a href="#">
-                            <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg">
-                        </a>
-                        <h4>Cityscape</h4>
-                    </div>
-                </div>
-                <div class="col-md-4 text-center">
-                    <div class="portfolio-item">
-                        <a href="#">
-                            <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg">
-                        </a>
-                        <h4>Is That On Fire?</h4>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4 col-md-offset-2 text-center">
-                    <div class="portfolio-item">
-                        <a href="#">
-                            <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg">
-                        </a>
-                        <h4>Stop Sign</h4>
-                    </div>
-                </div>
-                <div class="col-md-4 text-center">
-                    <div class="portfolio-item">
-                        <a href="#">
-                            <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg">
-                        </a>
-                        <h4>Narrow Focus</h4>
-                    </div>
+                <header class="section-header">
+                    <h2 class="section-title"><span>Portfolio</span></h2>
+                      <div class="spacer"></div>
+                    <p class="section-subtitle">Lorem ipsum dolor sit amet, id iusto oportere mel. </p>
+                </header>
+           
+                <div id="grid-controls-wrapper">
+                <ul class="nav nav-pills center-pills grid-controls">
+                  <li class="active filter"><a href="javascript:void(0)" data-filter="*">All</a></li>
+                  <li class="filter" ><a href="javascript:void(0)" data-filter=".branding">Branding</a></li>   
+                  <li class="filter" ><a href="javascript:void(0)" data-filter=".design">Design</a></li>            
+                  <li class="filter"><a href="javascript:void(0)"  data-filter=".photography">Photography</a></li>
+                  <li class="filter" ><a href="javascript:void(0)" data-filter=".web">Website</a></li>
+                </ul>
+              </div>
+            
+                <div>
+                  <ul id="grid" class="grid-wrapper">
+                      <li class="mix web" >
+                       <a href="img/portfolio/large/01.png"><div class="overlay"><i class="fa fa-search"></i></div><img src="img/portfolio/small/01.png"  alt="" >
+                      </a> </li>
+                      <li class="mix design">
+                        <a href="img/portfolio/large/02.png"><div class="overlay"><i class="fa fa-search"></i></div><img src="img/portfolio/small/02.png" alt="" ></a></li>
+                      <li class="mix design">
+                        <a href="img/portfolio/large/03.png"><div class="overlay"><i class="fa fa-search"></i></div><img src="img/portfolio/small/03.png" alt="" ></a></li>
+                      <li class="mix web">
+                        <a href="img/portfolio/large/04.png"><div class="overlay"><i class="fa fa-search"></i></div><img src="img/portfolio/small/04.png" alt="" ></a></li>
+                      <li class="mix branding">
+                        <a href="img/portfolio/large/05.png"><div class="overlay"><i class="fa fa-search"></i></div><img src="img/portfolio/small/05.png" alt="" ></a></li>
+                      <li class="mix design">
+                        <a href="img/portfolio/large/06.png"><div class="overlay"><i class="fa fa-search"></i></div><img src="img/portfolio/small/06.png" alt="" ></a></li>
+                      <li class="mix photography">
+                        <a href="img/portfolio/large/07.png"><div class="overlay"><i class="fa fa-search"></i></div><img src="img/portfolio/small/07.png" alt="" ></a></li>
+                      <li class="mix photography">
+                        <a href="img/portfolio/large/08.png"><div class="overlay"><i class="fa fa-search"></i></div><img src="img/portfolio/small/08.png" alt="" ></a></li>
+                      <li class="mix photography">
+                        <a href="img/portfolio/large/09.png"><div class="overlay"><i class="fa fa-search"></i></div><img src="img/portfolio/small/09.png" alt="" ></a></li>
+                      <li class="mix web">
+                        <a href="img/portfolio/large/10.jpg"><div class="overlay"><i class="fa fa-search"></i></div><img src="img/portfolio/small/10.jpg" alt="" ></a></li>
+                      <li class="mix design">
+                        <a href="img/portfolio/large/11.jpg"><div class="overlay"><i class="fa fa-search"></i></div><img src="img/portfolio/small/11.jpg" alt="" ></a></li>
+                      <li class="mix design">
+                        <a href="img/portfolio/large/12.png"><div class="overlay"><i class="fa fa-search"></i></div><img src="img/portfolio/small/12.png" alt="" ></a></li>
+                      <li class="mix design">
+                        <a href="img/portfolio/large/13.png"><div class="overlay"><i class="fa fa-search"></i></div><img src="img/portfolio/small/13.png" alt="" ></a></li>
+                      <li class="mix design">
+                        <a href="img/portfolio/large/14.png"><div class="overlay"><i class="fa fa-search"></i></div><img src="img/portfolio/small/14.png" alt="" ></a></li>
+                         <li class="mix branding">
+                        <a href="img/portfolio/large/15.png"><div class="overlay"><i class="fa fa-search"></i></div><img src="img/portfolio/small/15.png" alt="" ></a></li>
+                  </ul>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- /Portfolio -->
-
-    <!-- Call to Action -->
-    <div class="call-to-action">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-md-offset-3 text-center">
-                    <h3>The buttons below are impossible to resist.</h3>
-                    <a href="#" class="btn btn-lg btn-default">Click Me!</a>
-                    <a href="#" class="btn btn-lg btn-primary">Look at Me!</a>
-                </div>
+    </section><!-- portfolio ends -->
+    <!-- contact begins -->
+     <section id="page-contact" class="page-contact">
+          <div class="container">
+              <header class="section-header">
+                  <h2 class="section-title"><span>Contact</span></h2>
+                    <div class="spacer"></div>
+                       <p class="section-subtitle">Lorem ipsum dolor sit amet, id iusto oportere mel. </p>
+              </header>
+        <div class="row">
+          <div class="col-sm-5 contact-info">
+            <h3>Contact Info</h3>
+            <p><i class="fa fa-map-marker"></i> 1234 State St., Little Rock, AR  72020 </p>
+            <p><i class="fa fa-phone"></i> (555) 123-4567 | (555) 123-7654 (FAX)</p>
+            <p><i class="fa fa-envelope-o"></i> articulate@email.com</p>
+          </div>
+          
+          <div class="col-sm-7">
+          <h3>Get in Touch</h3>
+              <form  class="form-horizontal" id="contact-form">
+        <div class="control-group">
+            <label class="control-label" for="name">Name</label>
+            <div class="controls">
+                <input type="text" name="name" id="name" placeholder="Your name" class="form-control input-lg ">
             </div>
         </div>
-    </div>
-    <!-- /Call to Action -->
-
-    <!-- Map -->
-    <div id="contact" class="map">
-        <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
-        <br />
-        <small>
-            <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
-        </small>
-        </iframe>
-    </div>
-    <!-- /Map -->
-
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-md-offset-3 text-center">
-                    <ul class="list-inline">
-                        <li><i class="fa fa-facebook fa-3x"></i>
-                        </li>
-                        <li><i class="fa fa-twitter fa-3x"></i>
-                        </li>
-                        <li><i class="fa fa-dribbble fa-3x"></i>
-                        </li>
-                    </ul>
-                    <div class="top-scroll">
-                        <a href="#top"><i class="fa fa-circle-arrow-up scroll fa-4x"></i></a>
-                    </div>
-                    <hr>
-                    <p>Copyright &copy; Company 2013</p>
-                </div>
+        <div class="control-group">
+            <label class="control-label" for="email">Email Address</label>
+            <div class="controls">
+                <input type="text" name="email" id="email" placeholder="Your email address" class="form-control input-lg">
             </div>
         </div>
-    </footer>
-    <!-- /Footer -->
+        <div class="control-group">
+            <label class="control-label" for="message">Message</label>
+            <div class="controls">
+                <textarea name="message" id="message" rows="8" class="form-control input-lg"></textarea>
+            </div>
+        </div>
+        <div class="form-actions">
+            <button type="submit" class="btn btn-default btn-lg btn-block">Submit Message</button>
+        </div>
+    </form><!-- End contact-form -->
+          </div>
+        </div><!-- End row -->
 
-    <!-- JavaScript -->
-    <script src="js/jquery-1.10.2.js"></script>
-    <script src="js/bootstrap.js"></script>
+        </div>
+    </section> <!-- contact ends -->
 
-    <!-- Custom JavaScript for the Side Menu and Smooth Scrolling -->
-    <script>
-    $("#menu-close").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-    });
-    </script>
-    <script>
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-    });
-    </script>
-    <script>
-    $(function() {
-        $('a[href*=#]:not([href=#])').click(function() {
-            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
 
-                var target = $(this.hash);
-                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                if (target.length) {
-                    $('html,body').animate({
-                        scrollTop: target.offset().top
-                    }, 1000);
-                    return false;
-                }
-            }
-        });
-    });
-    </script>
-
-</body>
-
+        <script src="js/jquery-1.10.2.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.scrollTo.js"></script>
+        <script src="js/jquery.nav.js"></script>
+        <script src="js/jquery.sticky.js"></script>
+        <script src="js/jquery.easypiechart.min.js"></script>
+        <script src="js/jquery.vegas.min.js"></script>
+        <script src="js/jquery.isotope.min.js"></script>
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <script src="js/jquery.validate.js"></script>
+        <script src="js/waypoints.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
 </html>
