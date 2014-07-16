@@ -558,7 +558,7 @@ label.valid{
    ========================================================================== */
 
 .left { float: left; }
-.right { float: right; }
+.right { right:0;}
 .text-center {text-align: center;}
 .centered {
     margin-left: auto;
