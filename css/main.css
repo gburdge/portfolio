@@ -14,7 +14,7 @@ html, body {
     color:#757575;
 }
 
-img { 
+img {
     max-width: 100%;
 }
 
@@ -61,6 +61,11 @@ h1,h2,h3,h4,h5,h6{
     float:none;
     font-size: 1em;
     font-weight: bold;
+}
+.logo-image{
+    float:right;
+    width:
+
 }
 
 .navbar-default .navbar-nav>li>a:hover, 
@@ -120,7 +125,8 @@ background-color: transparent;
 
 #page-profile{
     padding: 75px 0;
-    background:#fff;
+    background: #18a4bd;
+    color: black;
 }
 
 #page-profile .profile{
@@ -362,7 +368,7 @@ background-color: transparent;
     font-weight: 700;
     letter-spacing: 5px;
     text-align: center;
-    color: #555555;
+    color: #000000;
     text-transform: uppercase;
     padding:20px 0;
 }

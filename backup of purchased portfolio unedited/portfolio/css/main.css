@@ -125,6 +125,7 @@ h1,h2,h3,h4,h5,h6{
   -moz-transform: translateX(-50%);
   transform: translateX(-50%);
   pointer-events: none;
+color: = teal;
 }
 
 
