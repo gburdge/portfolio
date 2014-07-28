@@ -508,7 +508,7 @@ label.valid{
 }
 .btn.btn-clear{
     border: 1px solid #fff;
-    color: teal;
+    color: dodgerblue;
     background: none;
     background-color: #ffffff;
     font-weight: bold;
@@ -529,7 +529,7 @@ label.valid{
     -o-transform:rotate(360deg);
 }
 .btn-linkedin:hover {
-    color: #015786;
+    color: dodgerblue;
 }
 .btn-twitter:hover{
     color:#2BA9E0;
