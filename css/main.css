@@ -44,7 +44,7 @@ h1,h2,h3,h4,h5,h6{
 .navbar-default {
     background: rgba(255, 255, 255, 0.85);
     border: none;
-    color:blue;
+    color:cornflowerblue;
     text-transform: uppercase;
     display: inline-block;
     text-align: center;
@@ -69,7 +69,7 @@ h1,h2,h3,h4,h5,h6{
 
 .navbar-default .navbar-nav>li>a:hover, 
 .navbar-default .navbar-nav>li>a:focus {
-background-color: blue;
+background-color: #0ac4ff;
 }
 
 .navbar-default .navbar-nav>.active>a, 
@@ -92,13 +92,9 @@ background-color: blue;
     -o-background-size: cover;
     background-size: cover;
 }
-
-
-
 #page-welcome header{
-    color: #fffe00;
+    color: #18a4bd;
     padding-top:20%;
-
 }
 
 #page-welcome header h1{
@@ -361,6 +357,7 @@ background-color: blue;
 
 .section-header p{
     font-size: 1.5em;
+    text-align: left;
 }
 .section-title {
     font-size: 3em;
@@ -383,6 +380,9 @@ background-color: blue;
     padding:60px 0;
 }
 
+p {
+    color: #000;
+}
 
 /* ==========================================================================
    Forms
