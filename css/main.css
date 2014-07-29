@@ -42,13 +42,14 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .navbar-default {
-    background: rgba(255, 255, 255, 0.85);
+    background: rgba(253, 255, 68, 0.85);
     border: none;
     color:cornflowerblue;
     text-transform: uppercase;
     display: inline-block;
     text-align: center;
     position:fixed;
+    color: black;
 
 }
 
@@ -93,7 +94,7 @@ background-color: #0ac4ff;
     background-size: cover;
 }
 #page-welcome header{
-    color: #18a4bd;
+    color: #fffe00;
     padding-top:20%;
 }
 
@@ -132,27 +133,29 @@ background-color: #0ac4ff;
    
 }
 
-
 #page-skills{
     padding: 75px 0;
-    background:#f7f7f7;
+    background: #c8c8c8;
     text-align: center;
+    color: black;
 }
 
 #page-education{
     padding: 75px 0;
-    background:#fff;
+    background: #18a4bd;
+    color: black;
 }
 
 
 #page-experience{
      padding: 75px 0;
-    background:#f7f7f7;
+    background: #c8c8c8;
+    color: black;
 }
 
 #page-portfolio{
     padding: 75px 0;
-    background:#fff;
+    background: #18a4bd;
 
 }
 
@@ -539,8 +542,8 @@ label.valid{
     color:#CA2128;
 }
 
-.btn-google:hover{
-    color:#D3492C;
+.btn-git:hover{
+    color: #b100bd;
 }
 
 
