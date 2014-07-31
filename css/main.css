@@ -10,7 +10,7 @@ html, body {
     height: 100%;
     width: 100%;
     font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
-    color:#757575;
+    color:#000000;
 }
 
 img {
@@ -31,7 +31,8 @@ a img {
 
 h1,h2,h3,h4,h5,h6{
     font-family: 'Oxygen', sans-serif;
-    font-weight: 700;
+    font-weight: 400;
+    text-align: center;
 }
 
 /* ==========================================================================
@@ -42,9 +43,9 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .navbar-default {
-    background: rgba(253, 255, 68, 0.85);
+    background: rgba(182, 165, 189, 0.85);
     border: none;
-    color:cornflowerblue;
+    color: #000000;
     text-transform: uppercase;
     display: inline-block;
     text-align: center;
@@ -59,18 +60,17 @@ h1,h2,h3,h4,h5,h6{
     list-style: none;
     display: inline-block;
     float:none;
-    font-size: 1em;
-    font-weight: bold;
+    font-size: 2em;
+    font-color: #000000;
 }
 .logo-image{
     float:left;
-    width:
 
 }
 
 .navbar-default .navbar-nav>li>a:hover, 
 .navbar-default .navbar-nav>li>a:focus {
-background-color: #0ac4ff;
+background-color: #b6a5bd;
 }
 
 .navbar-default .navbar-nav>.active>a, 
@@ -94,7 +94,7 @@ background-color: #0ac4ff;
     background-size: cover;
 }
 #page-welcome header{
-    color: #fffe00;
+    color: #bdb17b;
     padding-top:20%;
 }
 
@@ -121,7 +121,7 @@ background-color: #0ac4ff;
 
 #page-profile{
     padding: 75px 0;
-    background: #18a4bd;
+    background: #bdb17b;
     color: black;
 }
 
@@ -135,32 +135,34 @@ background-color: #0ac4ff;
 
 #page-skills{
     padding: 75px 0;
-    background: #c8c8c8;
+    background: #b6a5bd;
     text-align: center;
     color: black;
 }
 
 #page-education{
     padding: 75px 0;
-    background: #18a4bd;
+    background: #bdb17b;
     color: black;
 }
 
 
 #page-experience{
      padding: 75px 0;
-    background: #c8c8c8;
+    background: #b6a5bd;
     color: black;
 }
 
 #page-portfolio{
     padding: 75px 0;
-    background: #18a4bd;
-
+    background: #bdb17b;
+    color: black;
 }
 
 #page-contact{
     padding: 75px 0;
+    background: #b6a5bd;
+    color: black;
 }
 
 #page-contact .contact-info p{
@@ -367,7 +369,7 @@ background-color: #0ac4ff;
     font-weight: 700;
     letter-spacing: 5px;
     text-align: center;
-    color: #fffe00;
+    color: #8022ff;
     text-transform: uppercase;
     padding:20px 0;
 }
@@ -407,7 +409,7 @@ p {
     text-align: center;
     padding: 12px 26px 12px;
     cursor: pointer;
-    border: 2px solid #4cddf3;
+    border: 3px solid #000000;
     border-radius: 0;
     letter-spacing: 2px;
     pointer-events: auto;
@@ -430,7 +432,7 @@ input,.input-lg,button{
 }
 
 .control-group.error input, .control-group.error select, .control-group.error textarea {
-border-color: #b94a48;
+border-color: #ff232d;
 -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
 -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
 box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
@@ -441,14 +443,14 @@ color: #b94a48;
 
 label.error{
     color:#fff;
-    background:#b94a48;
+    background: #ff232d;
     border:solid thin #fff;
     padding:3px 5px;
 }
 
 label.valid{
     color:#fff;
-    background:#5CB85C;
+    background: #3fb80d;
     border:solid thin #fff;
     padding:3px 5px;
 
